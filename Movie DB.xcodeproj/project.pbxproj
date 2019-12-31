@@ -56,6 +56,7 @@
 		E1E06E2223B3D1FD006ECF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1E06E2423B3D1FD006ECF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1F182BB23BB4BE900C1703F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E1F182C023BBDF0A00C1703F /* Movie DB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Movie DB.entitlements"; sourceTree = "<group>"; };
 		E1F356DE23B3E1EE006996A7 /* MovieTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewHeaderView.swift; sourceTree = "<group>"; };
 		E1F356E023B3E200006996A7 /* MovieTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewHeaderView.xib; sourceTree = "<group>"; };
 		E1F356E223B3EF11006996A7 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieCollectionViewCell.swift; path = "Movie DB/MovieCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
@@ -206,6 +207,7 @@
 		E1E06E1523B3D1FA006ECF5E /* Movie DB */ = {
 			isa = PBXGroup;
 			children = (
+				E1F182C023BBDF0A00C1703F /* Movie DB.entitlements */,
 				E1A659AF23B3DC2800AAF3BF /* Screen */,
 				E1F356E623B47202006996A7 /* Network */,
 				E1F356EF23B4B523006996A7 /* Interface */,
@@ -593,15 +595,19 @@
 			baseConfigurationReference = 4FA8B91D8B86E688A3DE5694 /* Pods-Movie DB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Movie DB/Movie DB.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = R38K25C8UB;
 				INFOPLIST_FILE = "Movie DB/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ozhayta.Movie-DB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,15 +618,19 @@
 			baseConfigurationReference = 6469AC77FDFD7A38B5776CB9 /* Pods-Movie DB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Movie DB/Movie DB.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = R38K25C8UB;
 				INFOPLIST_FILE = "Movie DB/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ozhayta.Movie-DB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
