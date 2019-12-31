@@ -1,5 +1,5 @@
 # Movie-DB
-iOS App based on the movie db API
+The movie database API is used to develop an iOS application.
 
 Developed for iOS 13+
 
