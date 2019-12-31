@@ -32,10 +32,6 @@ class TVTableViewCell2: UITableViewCell {
         tvImageView.backgroundColor = .clear
         tvImageView.corners(15)
         tvImageViewContainerView.addShadow(offset: CGSize(width: -1, height: 3), color: .darkGray, radius: 6, opacity: 0.6)
-        tvImageViewContainerView.layer.shadowPath = UIBezierPath(roundedRect: tvImageView.bounds, cornerRadius: 6).cgPath
-
-//        tvImageViewContainerView.layer.addShadow(radius: 15, color: .darkGray, width: 5, height: 5, opacity: 0.9)
-      //  tvImageViewContainerView.layer.shadowPath = UIBezierPath(roundedRect: tvImageView.bounds, cornerRadius: 15).cgPath
         
         if let releaseYear = tvModel.releaseDate.dateFormatterGetOnlyYear(), let name = tvLabel?.text {
             tvLabel.text = name + " (" + releaseYear + "-)"

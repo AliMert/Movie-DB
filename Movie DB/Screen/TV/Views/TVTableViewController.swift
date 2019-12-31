@@ -102,7 +102,7 @@ class TVTableViewController: UITableViewController {
         if section == 0 {
             return 1
         }
-        return 15
+        return popularTVs?.count ?? 0
     }
 
     
@@ -150,7 +150,7 @@ class TVTableViewController: UITableViewController {
 
 extension TVTableViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return topRatedTVs?.count ?? 1
+        return topRatedTVs?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
