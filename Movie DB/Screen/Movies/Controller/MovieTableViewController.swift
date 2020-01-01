@@ -107,7 +107,7 @@ extension MovieTableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: tableViewCellIdentifier, for: indexPath) as! MovieTableViewCell
         cell.collectionView.tag = indexPath.section
-        print(cell.collectionView.tag)
+        cell.collectionView.reloadData()
         return cell
     }
     

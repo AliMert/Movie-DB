@@ -207,7 +207,6 @@
 		E1E06E1523B3D1FA006ECF5E /* Movie DB */ = {
 			isa = PBXGroup;
 			children = (
-				E1F182C023BBDF0A00C1703F /* Movie DB.entitlements */,
 				E1A659AF23B3DC2800AAF3BF /* Screen */,
 				E1F356E623B47202006996A7 /* Network */,
 				E1F356EF23B4B523006996A7 /* Interface */,
@@ -300,6 +299,7 @@
 		E1F356F123B4B53E006996A7 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				E1F182C023BBDF0A00C1703F /* Movie DB.entitlements */,
 				E1E06E2423B3D1FD006ECF5E /* Info.plist */,
 				E1E06E1623B3D1FA006ECF5E /* AppDelegate.swift */,
 				E1E06E1823B3D1FA006ECF5E /* SceneDelegate.swift */,
@@ -595,7 +595,7 @@
 			baseConfigurationReference = 4FA8B91D8B86E688A3DE5694 /* Pods-Movie DB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Movie DB/Movie DB.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Movie DB/Supporting/Movie DB.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = R38K25C8UB;
@@ -618,7 +618,7 @@
 			baseConfigurationReference = 6469AC77FDFD7A38B5776CB9 /* Pods-Movie DB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Movie DB/Movie DB.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Movie DB/Supporting/Movie DB.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = R38K25C8UB;
