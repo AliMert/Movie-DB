@@ -10,9 +10,12 @@ Developed for iOS 13+
 - macOS 10.15 support (buggy - scrolling on collection view's cells works better with trackpad)
 
 
-<b>Extras:</b>
+<b>Demo:</b>
+
 - Movies
+
 ![Movies Demo](Demo/movies.gif)
 
 - TV
+
 ![TV Demo](Demo/tv.gif)
