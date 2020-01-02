@@ -8,3 +8,6 @@ Developed for iOS 13+
 - Portrait/Landscape support
 - iPhone/iPad support
 - macOS 10.15 support (buggy - scrolling on collection view's cells works better with trackpad)
+
+
+![Movies Demo](Demo/movies.gif)
